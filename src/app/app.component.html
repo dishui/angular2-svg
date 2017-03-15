@@ -1,0 +1,15 @@
+<div>
+  <form [formGroup]="circleForm" >
+    <div class="form-group">
+        <label for="radius">Radius</label>
+        <input type="text"
+               class="form-control"
+               id="radius"
+               formControlName="radius"
+               placeholder=10
+               [(ngModel)]="radius"> {{radius}}
+    </div>
+ </form>
+</div>
+<app-circles-list></app-circles-list>
+

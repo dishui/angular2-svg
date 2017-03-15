@@ -1,0 +1,5 @@
+  
+  <svg width="500" height="500" >
+    <svg:circle *ngFor="let circle of circles"  [attr.r]="circle.r" [attr.cx]="circle.x" [attr.cy]="circle.y" [attr.fill]="circle.color"   >
+    </svg:circle>    
+  </svg>
